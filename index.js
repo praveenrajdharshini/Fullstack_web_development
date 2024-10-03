@@ -2,7 +2,6 @@ import e from "express";
 import en from "dotenv";
 import bodyparser from "body-parser";
 import mongoose from "mongoose";
-import newrouter from "./router/newrouter/index.js";
 const app=e();
 en.config();
 app.use(bodyparser.json())
